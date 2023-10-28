@@ -23,9 +23,9 @@ namespace AE
 
     [HarmonyPatch(typeof(AchievementTriggerSystem))]
     [HarmonyPatch("OnGameLoaded")]
-    class EnableAchievementsPatch
+    internal class EnableAchievementsPatch
     {
-        static void Postfix(ref AchievementTriggerSystem __instance, Context serializationContext)
+        private static void Postfix(ref AchievementTriggerSystem __instance, Context serializationContext)
         {
             //use accesstools to invoke private method Reset from instance
             AccessTools.Method(typeof(AchievementTriggerSystem), "Reset").Invoke(__instance, null);
