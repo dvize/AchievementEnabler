@@ -10,8 +10,6 @@ namespace AE
     [BepInPlugin("com.dvize.AchievementEnabler", "dvize.AchievementEnabler", "1.0.0")]
     public class AEPlugin : BaseUnityPlugin
     {
-        public static ConfigEntry<bool> PluginEnabled;
-
         private void Awake()
         {
             Logger.LogInfo("Patching Achievements");
