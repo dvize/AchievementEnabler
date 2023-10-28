@@ -56,14 +56,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>F:\XboxGames\Cities- Skylines II - PC Edition\Content\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="BepInEx.Core">
-      <HintPath>F:\XboxGames\Cities- Skylines II - PC Edition\Content\BepInEx\core\BepInEx.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="BepInEx.Unity.Common">
-      <HintPath>F:\XboxGames\Cities- Skylines II - PC Edition\Content\BepInEx\core\BepInEx.Unity.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="BepInEx.Unity.Mono">
-      <HintPath>F:\XboxGames\Cities- Skylines II - PC Edition\Content\BepInEx\core\BepInEx.Unity.Mono.dll</HintPath>
+    <Reference Include="BepInEx, Version=5.4.22.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\XboxGames\Cities- Skylines II - PC Edition\Content\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="Colossal.Core">
       <HintPath>F:\XboxGames\Cities- Skylines II - PC Edition\Content\Cities2_Data\Managed\Colossal.Core.dll</HintPath>
